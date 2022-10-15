@@ -1,0 +1,88 @@
+- intro
+  - `ASP.NET MVC`
+  - `ASP.NET Web Forms`
+- controllers
+- `ActionResults`
+  - `ContentResult`
+  - `FileResult`
+  - `ViewResult`
+  - `RedirectResult`
+  - `RedirectToRouteResult`
+  - `JsonResult`
+  - `PartialViewResult`
+- Views
+- Razor
+  - View Engine
+- HTTP
+  - Request
+  - Response
+- shared view
+  - share among multiple controllers
+- layout view
+  - header
+  - navbar
+  - sidebar
+- partial view
+  - re-use
+- routing
+  - for user-friendly
+  - for search-engine-friendly
+  - 2 type of routing
+    - conventional URL routing
+      - route literal
+      - route parameter
+      - route conflict
+      - route constraints
+    - attribute-based URL routing
+- models
+- model binding
+- EF Code - First Approach
+- HTML helpers
+- validations
+- ASP.NET Identity
+  - `Identity User`
+  - `UserStore`
+  - `UserManager`
+  - SignUp
+  - SignIn
+- Filters
+  - AuthorizationFilters
+  - ActionFilter
+  - AuthenticationFilters
+  - ResultFilters
+  - ExceptionFilters
+  - GlobalFilters
+  - FilterOverride
+- Build-in Filters
+  - Output Cache
+  - Action Name
+  - Non Action
+  - Child Action Only
+- Security
+  - CSRF / Cross Site Request Forgery
+- Exception Handling
+  - Exception Filter
+  - HandleError
+  - Http Errors
+  - Application Error
+- Service Pattern
+  - Controller call service layer
+  - Service layer
+    - business logic
+    - invoke data access layer
+- Repository pattern
+  - data access layer - repository layer - business logic layer
+  - separate data access logic from business logic
+- DI / Dependency Injection
+  - inject `repository` to `service`
+  - `service` to `controller`
+- State Management
+  - `ViewData`
+  - `ViewBag`
+  - `TempData`
+  - Session
+    - persist data among request
+- AJAX
+  - no page refresh
+  - use jQuery
+- Performance
