@@ -1,5 +1,6 @@
 # \_ViewStart.cshtml
 
+- can delete duplicate layout setting from views
 - default layout view for all the views of a folder
 
 # folder structure
