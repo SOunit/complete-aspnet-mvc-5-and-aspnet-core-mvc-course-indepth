@@ -1,0 +1,6 @@
+- Section
+  - view to layout-view
+- ViewBag
+  - view to layout-view
+- Layout View
+  - render view, layout-view
