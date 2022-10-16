@@ -1,0 +1,3 @@
+# razor expression
+
+- `@ViewBag.StudentId`
