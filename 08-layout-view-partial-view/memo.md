@@ -4,3 +4,6 @@
   - view to layout-view
 - Layout View
   - render view, layout-view
+- Partial View
+  - reusable view
+  - using with ViewBag
