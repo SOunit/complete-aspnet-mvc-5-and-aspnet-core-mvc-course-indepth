@@ -9,3 +9,9 @@ https://github.com/SOunit/LayoutViewsSampleAspNet
 
 # api sample repo
 https://github.com/SOunit/WebApiTestAspDotNet
+
+# Model sample
+
+
+# Entity Framework sample
+https://github.com/SOunit/EFDbFirstApproachExample
