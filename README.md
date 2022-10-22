@@ -11,7 +11,7 @@ https://github.com/SOunit/LayoutViewsSampleAspNet
 https://github.com/SOunit/WebApiTestAspDotNet
 
 # Model sample
-
+https://github.com/SOunit/AspNetModelExample
 
 # Entity Framework sample
 https://github.com/SOunit/EFDbFirstApproachExample
