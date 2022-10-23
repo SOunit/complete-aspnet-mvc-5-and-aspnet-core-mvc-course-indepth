@@ -11,6 +11,8 @@ install-package Microsoft.AspNet.Identity.Owin
 install-package Microsoft.Owin.Host.SystemWeb
 ```
 
+# create startup file
+
 - create owin startup class
   - add on project, select `Web/OWIN Startup class`, `Startup.cs`
   - add config
@@ -25,3 +27,29 @@ install-package Microsoft.Owin.Host.SystemWeb
         });
     }
     ```
+
+# create classes
+
+- ApplicationUser
+  - represent data structure in db
+- ApplicationDbContext
+- ApplicationUserStore
+- ApplicationUserManager
+
+# create a folder
+
+- root / `Identity`
+
+# create ApplicationUser class
+
+- inherit `IdentityUser`
+  - have these properties
+    - Email
+    - UserName
+    - Password
+    - etc
+- can add your own properties
+
+# Add Connection String
+
+- `Web.config`
