@@ -8,3 +8,9 @@
 # model binding
 
 - add `name` to input tag
+
+# render flow
+
+- request
+- view
+- layout
