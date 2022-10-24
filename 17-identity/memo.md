@@ -53,3 +53,32 @@ install-package Microsoft.Owin.Host.SystemWeb
 # Add Connection String
 
 - `Web.config`
+
+# ApplicationDbContext
+
+- Identity/ApplicationDbContext
+
+# Enable Migration
+
+```
+Enable-Migrations -ContextTypeName AspNetIdentitySample.Identity.ApplicationDbContext -MigrationsDirectory IdentityMigrations
+```
+
+# Error Fix
+
+## connectionString
+
+- copied from Official Document
+
+  ```
+  <add name="MyConnectionString"
+    connectionString="Data Source=DESKTOP-VBED2PD;Initial Catalog=Company;Integrated Security=SSPI;"
+    providerName="System.Data.SqlClient" />
+  ```
+
+## Enable Migration Error
+
+- url
+  https://stackoverflow.com/questions/41777590/entity-framework-value-cannot-be-null-parameter-name-type
+- solution
+  - upgrade EF from 6.1 to 6.4
