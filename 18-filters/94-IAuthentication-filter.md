@@ -1,3 +1,7 @@
+# todo
+
+- protect product-details page
+
 # memo
 
 - create filter
