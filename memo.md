@@ -14,3 +14,11 @@
 - request
 - view
 - layout
+
+# filter flow
+
+- IAuthenticationFilter.IAuthentication
+- IAuthorizationFilter.IAuthorization
+- IActionFilter.OnActionExecuting
+- Action Method
+- IActionFilter.OnActionExecuted
