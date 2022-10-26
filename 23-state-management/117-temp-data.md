@@ -1,0 +1,5 @@
+- from action to another action
+  - like redirect
+- automatic delete, when value is read
+- dictionary based
+- use session internally
