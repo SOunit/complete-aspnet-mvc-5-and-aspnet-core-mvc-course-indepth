@@ -6,3 +6,5 @@
   - object is created when user visit page
   - object is deleted when user leave page
 - using dictionary data type
+- need to typecast
+  - `ViewBag` do not need typecast
