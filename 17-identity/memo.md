@@ -82,3 +82,20 @@ Enable-Migrations -ContextTypeName AspNetIdentitySample.Identity.ApplicationDbCo
   https://stackoverflow.com/questions/41777590/entity-framework-value-cannot-be-null-parameter-name-type
 - solution
   - upgrade EF from 6.1 to 6.4
+
+# add migration
+
+```
+add-migration -configuration AspNetIdentitySample.IdentityMigrations.Configuration Initial
+```
+
+- Tables
+  - AspNetRoles
+  - AspNetUserRoles
+  - AspNetUsers
+  - AspNetUserClaims
+  - AspNetUserLogins
+
+# update database
+
+- `update-database -Configuration AspNetIdentitySample.IdentityMigrations.Configuration`
