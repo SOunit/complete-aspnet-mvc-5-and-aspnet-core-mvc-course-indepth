@@ -1,0 +1,9 @@
+- wrapper of `ViewData`
+- dynamic type
+  - no need to typecast
+- return null if not exist
+  - no need to null check
+  - `ViewData` need null check to avoid error
+- lifetime is per request
+- `ViewBag` is recommended to use than `ViewData`
+  - introduced in MVC v3
